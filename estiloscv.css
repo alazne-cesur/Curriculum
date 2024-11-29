@@ -1,0 +1,132 @@
+/* Estilos Generales */
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff6e8;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #efbbff;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+/* Sección Perfil */
+#profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Títulos */
+h2 {
+    color: #efbbff;
+}
+
+/* Sección Experiencia Laboral */
+#work-experience ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#work-experience li {
+    margin-bottom: 20px;
+}
+
+/* Sección Habilidades */
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    margin-bottom: 10px;
+}
+
+/* Sección Proyectos */
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects li {
+    margin-bottom: 20px;
+}
+
+/* Sección Contacto */
+#contact p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    #profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-img {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+}
+
+/* Efectos de hover */
+a:hover {
+    background-color: #9ff4ff;
+    font-size: 22px;
+}
+
+a:link {
+    color: #b67eff;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:active {
+    background-color: #0084ff;
+}
